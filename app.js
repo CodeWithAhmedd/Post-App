@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 content: postContent,
                 privacy: 'Friends'
             };
+            
             createPost(postDetails);
             savePost(postDetails);
             textarea.value = ''; // Clear the textarea
